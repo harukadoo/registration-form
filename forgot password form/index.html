@@ -20,14 +20,14 @@
                     <p>You'll get an email with a link to reset password</p>
                 </div>
 
-                <form action="#" method="get" class="forgot-password__form">
+                <form action="#" method="get" class="forgot-password__form" id="fp-form">
                     <label for="email">
                         <input type="text" name="email" id="email" placeholder="Email">
                     </label>
                 </form>
 
-                <div class="forgot-password__button-container">
-                    <button class="forgot-password__button">Restore password</button>
+               <div class="forgot-password__button-container">
+                    <button type="submit" form="fp-form" class="forgot-password__button">Restore password</button>
                 </div>
 
                 <div class="forgot-password__sign-in-link-container">
